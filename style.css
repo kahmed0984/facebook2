@@ -675,7 +675,7 @@ font-size: 13px;
   margin-bottom: 10px;
 }
 
-.contant_create_comment_box > ul > li >  textarea{
+.contant_create_comment_box > ul > li >  .textarea{
   border: none;
   width: 100%;
   height: 30px;

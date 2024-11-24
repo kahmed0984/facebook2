@@ -314,20 +314,44 @@
                                     <div class="contant_create_comment_box">
                                         <ul>
                                             <li>
-                                                <a href="#"><img class="img-fluid" src="images/profile-img.jpg" alt=""></a>
+                                                <a href="#"><img class="img-fluid" src="images/profile-img.jpg"></a>
                                             </li>
                                             <li>
-                                                <textarea name="" id="" placeholder="Comments as খারাপ মানুষ"></textarea>
+                                                <input class="textarea" name="usercomment" placeholder="Comments as Kawsar Ahmed" type="text">
                                                 <ul>
                                                     <li><a href="#"><i class="fa-regular fa-face-smile"></i></a></li>
-                                                   <li>
-                                                        <a href="#">
-                                                            <label for="cccb_camera"><i class="fa-solid fa-camera"></i></label>
-                                                            <input type="file" id="cccb_camera">
-                                                        </a>
-                                                   </li>
-                                                    <li><a href="#"><i class="fa-solid fa-paper-plane"></i></a></li>
+                                                    <li>
+                                                        <!-- <label for="cccb_camera">Camera</label> lable er jonno img comment hossilo na -->
+                                                        <input style="
+                                                        background:#0785FD;
+                                                        color:white;
+                                                        padding:3px 8px;
+                                                        border:none;
+                                                        border-radius:5px;
+                                                        font-size:12px;
+                                                        max-width:200px;
+                                                        &amp;:hover{
+                                                            background:#0715FF;
+                                                        };
+                                                        " name="com_img" type="file" id="cccb_camera">
+                                                        <!-- type hidden na dele kaj korbe na -->
+                                                        <input name="postid" type="hidden" value="34"> 
+                                                    </li>
+                                                    
+                                                    <li>
+                                                        <input style="
+                                                        background:#0785FD;
+                                                        color:white;
+                                                        padding:3px 8px;
+                                                        border:none;
+                                                        border-radius:5px;
+                                                        font-size:12px;
+                                                        &amp;:hover{
+                                                            background:#0715FF;
+                                                        };
+                                                        " type="submit" id="post_cb" value="Send">
 
+                                                    </li>
                                                 </ul>
                                             </li>
                                         </ul>
